@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+.header {
+  height: 100px;
+  max-width: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #333333;
+  margin-bottom: 60px;
+  padding: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header h1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contenair {
+  width: 1020px;
+  height: 1020px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.block1 {
+  flex-shrink: 0;
+  border: solid red 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block2 {
+  flex-shrink: 0;
+  border: solid green 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block3 {
+  flex-shrink: 0;
+  border: solid yellow 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block4 {
+  flex-shrink: 0;
+  border: solid #039fe3 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block5 {
+  flex-shrink: 0;
+  border: solid #f8c5af 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block6 {
+  flex-shrink: 0;
+  border: solid red 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block7 {
+  flex-shrink: 0;
+  border: solid green 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block8 {
+  flex-shrink: 0;
+  border: solid yellow 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.block9 {
+  flex-shrink: 0;
+  border: solid #039fe3 10px;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+}
+.block1 > p {
+}
+.block2 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.block3 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.block4 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.block5 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.block6 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.block7 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.block8 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.block9 > p {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.footer {
+  background-color: #dddddd;
+  height: 40;
+  text-align: center;
+  padding: 25px;
+}
+.footer a {
+  color: black;
+}
+
+.footer a:visited {
+  color: black;
 }
